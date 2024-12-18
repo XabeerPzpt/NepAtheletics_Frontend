@@ -1,0 +1,143 @@
+/* Reset some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #77787a 0%, #212020 100%);
+}
+
+.login-form {
+    margin-top: 0;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 350px;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+.ValidUser{
+color: rgb(111, 231, 31);
+display: block;
+}
+.InvalidUser{
+color: red;
+display: block;
+}
+.messageDisplay{
+    position:absolute;
+    top: 160px;
+    
+}
+.formField{
+    width: 400px;
+    display: block;
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.register{
+    margin-bottom: 20px;
+}
+.register_button{
+    color: rgb(127, 89, 187);
+}
+.register_button:hover{
+    color:rgb(233, 97, 97);
+}
+
+.popup-background-login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px); /* Background blur effect */
+    background-color: rgba(155, 155, 155, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content-login {
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+  }
+  
+
+  
+  .popup-button-login {
+    padding: 10px 20px;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+
+  }
+ 
+  .popup-button-login:hover {
+    background-color: #0056b3;
+  }
+   
+ 

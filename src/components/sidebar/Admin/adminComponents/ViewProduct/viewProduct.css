@@ -1,0 +1,23 @@
+.productName{
+line-height: 30px;
+color: black;
+margin: 15px;
+}
+.card{
+    padding: 30px;
+}
+.key{
+    font-size: 18px;
+    display: block;
+    font-family: 'Georgia', serif;
+    margin-bottom: 5px;
+    color: rgb(17, 152, 255);
+}
+.row{
+    display: block;
+    margin: 10px;
+    font-style: italic;
+    border: 0.5px solid;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+/* chart.css */
+.chartLayout {
+    width: 400px;
+    height: 400px; /* Adjust this as needed */
+    position: relative;
+    margin: 20px auto; /* Center the chart */
+    background: #ffffff; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(58, 107, 255, 0.341); /* Soft shadow */
+    padding: 20px; /* Inner padding */
+  }
+  
+  .chartLayout canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  

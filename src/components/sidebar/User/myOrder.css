@@ -1,0 +1,12 @@
+.myOrdersPage{
+    position: fixed;
+    top: 150px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+.table-container{
+    margin-top: 20px;
+}
